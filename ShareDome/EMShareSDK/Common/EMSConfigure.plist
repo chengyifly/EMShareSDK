@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WeChatAppID</key>
+	<string>wx5838fa36ab2c17f7</string>
+	<key>WeChatAppSecret</key>
+	<string>702d98fa701e3f32c79d480f72284a46</string>
+	<key>WeiboAppKey</key>
+	<string>3260087126</string>
+	<key>WeiboAppSecret</key>
+	<string>01e1b12e4ddef929d386890d8c0b8444</string>
+	<key>WeiboRedirectURL</key>
+	<string>http://www.jinyuanbao.cn/</string>
+	<key>QQAppID</key>
+	<string>1104434519</string>
+	<key>QQAppKey</key>
+	<string>hvSfquQa1GfoYY4V</string>
+</dict>
+</plist>

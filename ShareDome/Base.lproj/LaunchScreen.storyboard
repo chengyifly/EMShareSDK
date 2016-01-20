@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © by ChengYixiang, Easymob LLC." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1A-yb-akR">
+                                <rect key="frame" x="135" y="559" width="330" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6Zc-Os-eBx"/>
+                                    <constraint firstAttribute="width" constant="330" id="s8e-Bj-Atd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Thin" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kv0-Al-PVp">
+                                <rect key="frame" x="226" y="244" width="147" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="7QD-J7-1NH"/>
+                                    <constraint firstAttribute="width" constant="147" id="yj9-2U-NbC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easymob ShareSDK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHG-Qs-JRY">
+                                <rect key="frame" x="101" y="156" width="397" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="397" id="Ybl-ln-10F"/>
+                                    <constraint firstAttribute="height" constant="48" id="fIL-7O-hes"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Thin" family="Apple SD Gothic Neo" pointSize="44"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d1A-yb-akR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5ha-ac-BcX"/>
+                            <constraint firstItem="Kv0-Al-PVp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Iq-6x-77c"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="d1A-yb-akR" secondAttribute="bottom" constant="20" id="8sG-oq-LJN"/>
+                            <constraint firstItem="Kv0-Al-PVp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="471" id="9iJ-8u-mNd"/>
+                            <constraint firstItem="hHG-Qs-JRY" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="136" id="CV7-7A-vak"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hHG-Qs-JRY" secondAttribute="bottom" constant="423" id="Mum-4L-jMF"/>
+                            <constraint firstItem="d1A-yb-akR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Xr8-fk-oyq"/>
+                            <constraint firstItem="Kv0-Al-PVp" firstAttribute="top" secondItem="hHG-Qs-JRY" secondAttribute="bottom" constant="40" id="jfO-qt-kIM"/>
+                            <constraint firstItem="hHG-Qs-JRY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="msX-cg-66G"/>
+                            <constraint firstItem="d1A-yb-akR" firstAttribute="top" secondItem="Kv0-Al-PVp" secondAttribute="bottom" constant="25" id="sC3-Lf-mdV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9iJ-8u-mNd"/>
+                                <exclude reference="Xr8-fk-oyq"/>
+                                <exclude reference="sC3-Lf-mdV"/>
+                                <exclude reference="Mum-4L-jMF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_icon.png" width="207" height="54"/>
+    </resources>
+</document>
