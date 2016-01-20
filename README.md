@@ -1,4 +1,12 @@
 # EMShareSDK
+
+![](https://img.shields.io/npm/l/express.svg)&nbsp;
+![](https://img.shields.io/badge/platform-iOS-lightgrey.svg)&nbsp;
+![](https://img.shields.io/badge/support-iOS7%2B-orange.svg)&nbsp;
+![](https://img.shields.io/badge/language-Objective--C-ff69b4.svg)&nbsp;
+![](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)&nbsp;
+
+
 集成了微信、QQ和微博的分享与登录SDK，可以拿来直接用
 
 这里写了个Dome，代码文件都在“EMShareSDK”文件夹下
